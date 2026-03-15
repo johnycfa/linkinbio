@@ -42,6 +42,10 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: rgb(219, 214, 122);
+    transition: 0.3s;
+}
 
 ul {
     list-style: none;
@@ -53,6 +57,8 @@ ul {
 
 li {
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -65,15 +71,19 @@ li {
 .fotcolor {
     background-color: transparent;
     box-shadow: 0px 0px 0px;
+    text-align: center;
 }
-
+.botao:hover{
+    background-color: #3b78f3a4;
+}
 .botao {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 
-    width: 250px;
+    width: 190px;
     padding: 15px;
 
     background: #4F6DF5;
