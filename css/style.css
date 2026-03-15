@@ -104,7 +104,9 @@ li {
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(45deg,rgb(212, 2, 160), rgb(109, 2, 141));
-    padding: 4px;
+    padding: 7px;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
 }
 
 .avatar-off{
@@ -112,5 +114,6 @@ li {
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(45deg,rgb(95, 91, 94), rgb(61, 61, 61));
-    padding: 4px;
+    padding: 7px;
+    transition: 1s;
 }
