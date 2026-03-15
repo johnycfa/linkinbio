@@ -21,6 +21,7 @@ h3 {
 }
 
 body {
+    min-height: 100vh;
     background-image: linear-gradient(to top, #0B0C47, #0d2044);
     text-align: center;
     color: rgb(218, 216, 216);
@@ -92,4 +93,21 @@ li {
 
     border-radius: 10px;
     font-weight: bold;
+}
+
+.avatar:hover{
+    content: url(../imagens/elfo.png);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,rgb(212, 2, 160), rgb(109, 2, 141));
+    padding: 4px;
+}
+
+.avatar-off{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,rgb(95, 91, 94), rgb(61, 61, 61));
+    padding: 4px;
 }
