@@ -34,11 +34,12 @@ p {
     box-shadow: 5px 5px 15px #a0a3a752;
     max-width: 700px;
     width: 90%;
-    padding: 10px;
+    padding: 15px 20px;
     border-radius: 5px;
     margin: auto;
     color: black;
-    text-align: left;
+    text-align: center;
+    line-height: 1.5;
 
 }
 
@@ -46,7 +47,8 @@ a {
     text-decoration: none;
     color: white;
 }
-a:hover{
+
+a:hover {
     color: rgb(219, 214, 122);
     transition: 0.3s;
 }
@@ -76,12 +78,16 @@ li {
     background-color: transparent;
     box-shadow: 0px 0px 0px;
     text-align: center;
+    font-size: 16px;
+    opacity: 0.7;
 }
-.botao:hover{
+
+.botao:hover {
     background-color: #3b78f3a4;
     transform: scale(1.08);
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
+
 .botao {
     position: relative;
     display: flex;
@@ -101,22 +107,22 @@ li {
     transition: 1s;
 }
 
-.avatar:hover{
+.avatar:hover {
     content: url(../imagens/elfo.png);
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: linear-gradient(45deg,rgb(212, 2, 160), rgb(109, 2, 141));
+    background: linear-gradient(45deg, rgb(212, 2, 160), rgb(109, 2, 141));
     padding: 7px;
     transform: scale(1.08);
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
-.avatar-off{
+.avatar-off {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: linear-gradient(45deg,rgb(95, 91, 94), rgb(61, 61, 61));
+    background: linear-gradient(45deg, rgb(95, 91, 94), rgb(61, 61, 61));
     padding: 7px;
     transition: 1s;
 }
