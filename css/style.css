@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h3 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #0B0C47, #0d2044);
+    text-align: center;
+    color: rgb(218, 216, 216);
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.616);
+    box-shadow: 5px 5px 15px #a0a3a752;
+    max-width: 700px;
+    width: 90%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(219, 214, 122);
+    transition: 0.3s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin: auto;
+
+}
+
+li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*======================================== VARIAVEIS ==================================*/
+
+.brancolink {
+    color: rgb(161, 157, 90);
+}
+
+.fotcolor {
+    background-color: transparent;
+    box-shadow: 0px 0px 0px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.botao:hover {
+    background-color: #3b78f3a4;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.botao {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 190px;
+    padding: 15px;
+
+    background: #4F6DF5;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.avatar:hover {
+    content: url(../imagens/elfo.png);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(212, 2, 160), rgb(109, 2, 141));
+    padding: 7px;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.avatar-off {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(95, 91, 94), rgb(61, 61, 61));
+    padding: 7px;
+    transition: 1s;
+}
