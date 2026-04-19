@@ -71,6 +71,17 @@ li {
     justify-content: center;
 }
 
+img{
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+footer p{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
 
 /*======================================== VARIAVEIS ==================================*/
 
